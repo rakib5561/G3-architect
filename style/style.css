@@ -216,9 +216,9 @@ section {
 
 .experience {
   color: white;
-  width: 280px;
+  width: 250px;
   background-color: #ff900e;
-  padding: 40px 50px;
+  padding: 35px 45px;
   text-align: center;
   border-radius: 8px;
   position: relative;
@@ -230,3 +230,52 @@ section {
   font-size: 42px;
   padding-bottom: 5px;
 }
+/* End love & enjoy */
+.fact {
+}
+
+.fact-tilte {
+  width: 600px;
+  margin-bottom: 80px;
+}
+.fact-tilte h1 {
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+.fact-tilte p {
+  font-size: 15px;
+  color: grey;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+.fact-boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fact-single-box {
+  text-align: center;
+  padding: 40px 35px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+}
+
+.icon {
+  width: 36px;
+}
+
+.fact-single-box h2 {
+  color: rgb(50, 50, 50);
+  font-size: 42px;
+  margin: 5px 0px;
+}
+.fact-single-box h3 {
+  color: grey;
+  font-size: 15px;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+/* End Some Fact Part */
