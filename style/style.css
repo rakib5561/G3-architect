@@ -369,7 +369,6 @@ textarea {
 footer {
   color: grey;
   background-color: #fff4e7;
-  margin-top: 120px;
   padding: 35px 0px;
   text-align: center;
   font-size: 15px;
@@ -381,6 +380,42 @@ footer {
 
 /* Mobile Devices */
 @media only screen and (max-width: 688px) {
+  section {
+    margin: 60px 0px;
+  }
+
+  .header-content h1 {
+    font-size: 36px;
+  }
+
+  .header-content p {
+    width: 100%;
+    text-align: center;
+    padding: 0px 10px;
+    margin-bottom: 25px;
+  }
+  /* End Header */
+  .featurs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .featurs-images {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .featurs-images img {
+    width: 290px;
+  }
+  .features-content {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .features-content h2 {
+    font-size: 36px;
+  }
+  /* End Features */
   .love-content {
     width: 100%;
     display: flex;
