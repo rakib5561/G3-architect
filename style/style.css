@@ -306,7 +306,66 @@ section {
   padding: 0px 50px;
   filter: grayscale(100%);
 }
-/* End Sponsor part */
+/* End */
+
+#contact-wraper {
+  width: 100%;
+  padding: 60px 0px;
+}
+
+.contact-part {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-title h1 {
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+.contact-title p {
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  color: grey;
+  line-height: 27px;
+}
+
+.contact-form {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+.contact-form h2 span {
+  color: #ff900e;
+}
+
+.contact-form form input,
+textarea {
+  width: 100%;
+  padding: 20px 24px;
+  margin: 15px 0px;
+  border-radius: 5px;
+  border: 1.5px solid #ff900e;
+}
+
+.contact-btn {
+  color: white;
+  text-transform: uppercase;
+  background-color: #ff900e;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+.contact-btn:hover {
+  color: #ff900e;
+  background-color: black;
+  border: 1.5px solid white;
+  transition: 0.2s all ease-in-out;
+}
+
 footer {
   color: grey;
   background-color: #fff4e7;
