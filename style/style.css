@@ -114,7 +114,7 @@
 section {
   width: 100%;
   overflow: hidden;
-  margin: 120px 0px;
+  margin: 80px 0px;
 }
 
 .featurs {
@@ -306,7 +306,7 @@ section {
   padding: 0px 50px;
   filter: grayscale(100%);
 }
-/* End */
+/* End Sponspors */
 
 #contact-wraper {
   width: 100%;
@@ -365,7 +365,7 @@ textarea {
   border: 1.5px solid white;
   transition: 0.2s all ease-in-out;
 }
-
+/* End contact form */
 footer {
   color: grey;
   background-color: #fff4e7;
@@ -373,4 +373,103 @@ footer {
   padding: 35px 0px;
   text-align: center;
   font-size: 15px;
+}
+
+/*------------------
+    Media Queries
+--------------------*/
+
+/* Mobile Devices */
+@media only screen and (max-width: 688px) {
+  .love-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+  }
+
+  .love-des {
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  .love-title h1 {
+    font-size: 36px;
+  }
+
+  .love-img {
+    width: 100%;
+    padding: 0px 10px;
+    position: relative;
+    z-index: -100;
+  }
+  .experience {
+    width: 200px;
+    margin-top: -105px;
+    margin-left: -20px;
+  }
+
+  .experience h1 {
+    font-size: 32px;
+  }
+  /* End Love part */
+  .fact-tilte {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .fact-tilte h1 {
+    font-size: 36px;
+  }
+  .fact-boxes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .fact-single-box {
+    margin: 15px 5px;
+  }
+  .icon {
+    width: 32px;
+  }
+  .fact-single-box h2 {
+    font-size: 28px;
+  }
+  /* End Some Fact */
+  .sponspors-title {
+    width: 100%;
+    padding: 60px 20px;
+  }
+  .sponspors-title h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+  }
+  .sponspors-title p {
+    font-size: 15px;
+    padding: 0px 0px;
+  }
+  .sponspors-item {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+  .sponspors-item img {
+    width: 65%;
+    margin: 40px 0px;
+  }
+  /* End Sponsor */
+  .contact-part {
+    width: 100%;
+  }
+  .contact-title h1 {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .contact-title p {
+    text-align: center;
+  }
+  footer {
+    padding: 30px 20px;
+  }
 }
