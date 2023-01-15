@@ -7,7 +7,7 @@
   font-family: "Work Sans", sans-serif;
 }
 .container {
-  max-width: 1240px;
+  max-width: 1340px;
   margin: 0 auto;
   overflow: hidden;
   padding: 0px 20px;
@@ -231,8 +231,6 @@ section {
   padding-bottom: 5px;
 }
 /* End love & enjoy */
-.fact {
-}
 
 .fact-tilte {
   width: 600px;
@@ -279,3 +277,41 @@ section {
 }
 
 /* End Some Fact Part */
+
+.sponspors-title {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 0px;
+}
+
+.sponspors-title h1 {
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+.sponspors-title p {
+  color: grey;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+.sponspors-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sponspors-item img {
+  width: 85%;
+  padding: 0px 50px;
+  filter: grayscale(100%);
+}
+/* End Sponsor part */
+footer {
+  color: grey;
+  background-color: #fff4e7;
+  margin-top: 120px;
+  padding: 35px 0px;
+  text-align: center;
+  font-size: 15px;
+}
